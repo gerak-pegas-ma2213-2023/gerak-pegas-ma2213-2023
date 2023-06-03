@@ -153,7 +153,7 @@ function kpegas2(){
     plotData2.push(0); // mengisi data plot dengan 0
   } 
   
-///BAGIAN SIMULASI 2
+///////////////////////////BAGIAN SIMULASI 2//////////////////////
   
 //input frekuensi
   p=createInput(0.01)
@@ -228,7 +228,7 @@ function draw(){
   strokeWeight(3);
   text("SIMULASI PERILAKU BANGUNAN SELAMA GEMPA BUMI DAN MEMPREDIKSI RESPONNYA", 705, 170);
   
-/////////////////////////////////////////////PROFIL DATA bagian bawah//////////////////////////////////////////////////
+////////////////////////////////////PROFIL DATA bagian bawah//////////////////////////////////////////
   //ROIS
   textSize(14);
   textFont(josefin3);
@@ -367,7 +367,7 @@ function draw(){
   text("nya. Informasi ini berguna dalam mendesain bangunan yang tahan gempa dan dalam mengembangkan kode bangunan tahan gempa.", 260, 475)
   
 
-//PERSAMAAN  
+////////////////////////////////////PERSAMAAN/////////////////////////////////////////
   textSize(34);
   textAlign(RIGHT)
   textFont(josefin);
@@ -386,29 +386,13 @@ function draw(){
   image(pb, 750, 1650, 250, 120);
   image(pd, 750, 1820, 500, 120);
   
-//BEDA
-  // textSize(24);
-  // textAlign(LEFT)
-  // textFont(josefin);
-  // fill("#09499F");
-  // noStroke();
-  // text("a. Beda", 750, 1650);
-  
   textSize(24);
   textAlign(LEFT)
   textFont(josefin);
   fill("white");
   noStroke();
   text("a. Beda", 752, 1642);
-  
-//   //DIFERENSIAL
-//   textSize(24);
-//   textAlign(LEFT)
-//   textFont(josefin);
-//   fill("#09499F");
-//   noStroke();
-//   text("b. Diferensial", 750, 1302);
-  
+
   textSize(24);
   textAlign(LEFT)
   textFont(josefin);
@@ -416,7 +400,7 @@ function draw(){
   noStroke();
   text("b. Diferensial", 752, 1810);
 
-//CODING
+////////////////////////////////////  CODING PYTHON ////////////////////////////////
   let cpcolor = color('#09499F');
   fill(cpcolor);
   noStroke();
@@ -457,7 +441,7 @@ function draw(){
   text("menjadi lebih terkontrol dan gerak yang dihasilkan pada grafik akan lebih teratur.", 260, 2260);
   
   
-//DAPUS
+//////////////////////////////////////DAFTAR PUSTAKA //////////////////////////////////////////
   textSize(34);
   textAlign(LEFT)
   textFont(josefin);
@@ -493,14 +477,8 @@ function draw(){
   rect(0,3280,1350,5);
   
 
-  
-  
-  
-  
-  
-  
-  
-//Visualisasi
+////////////////////////////////////VISUALISASI/////////////////////////////////////////////
+
   image(bmkg, 910, 520, 170, 130);
   textSize(35);
   textAlign(LEFT)
@@ -563,11 +541,7 @@ function draw(){
     text("pa redaman", 820, 1325);
   
   
-  
-  
-  
- 
-  
+
 //------------------------BAGIAN SIMULASI-------------------------//
 
 ///////////////////////TANPA REDAMAN//////////////////////////////
@@ -628,7 +602,7 @@ function draw(){
   line(375, 662, 375,1033);
   
   
-/////////////////////PAKAI REDAMAN///////////////////////////
+////////////////////////////////////PAKAI REDAMAN/////////////////////////////////////////
   noStroke()
   fill("white")
   rect(0,1080,750,430,20);
@@ -685,8 +659,3 @@ function draw(){
   strokeWeight(5);
   line(375, 1082, 375, 1508); 
 }
-
-
-
-
-//rgb(120,31,31)rgb(58,30,30)rgb(137,68,68)rgb(117,86,86)rgb(12,11,11)
